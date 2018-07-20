@@ -1,4 +1,8 @@
 import _ from 'lodash';
+import Artyom from 'artyom.js';
+
+const Jarvis = new Artyom();
+Jarvis.say("Hello World !");
 
 function component() {
     var element = document.createElement('div');
