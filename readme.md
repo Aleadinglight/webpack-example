@@ -18,7 +18,7 @@ Build file from `/dist` to main.js.
 npx webpack 
 ```
 
-Create `webpack.config.js` to clarify the config for build sources and output. Then you can run with command.
+Create `webpack.config.js` to clarify the config for build sources and output. Then you can run with command. If a webpack.config.js is present, the webpack command picks it up by default. We use the --config option here only to show that you can pass a config of any name. This will be useful for more complex configurations that need to be split into multiple files.
 
 ```bash
 npx webpack --config webpack.config.js
