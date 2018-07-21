@@ -7,3 +7,16 @@ module.exports = {
     path: path.resolve(__dirname, 'dist')
   }
 };
+
+module: {
+  rules: [
+    {
+      // regular expression
+      test: /\.css$/,
+      use: [
+        'style-loader',
+        'css-loader'
+      ]
+    }
+  ]
+}
